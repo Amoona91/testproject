@@ -1,0 +1,53 @@
+body {
+   background: linear-gradient(45deg, #2eb003, #014a2a);
+   margin:0;
+   padding:0;
+}
+/*part logo*/
+div{
+   margin-top:400px; 
+   margin-bottom:40px;   
+}
+
+/*soon...*/
+h1.word
+   {
+  color: white;
+  font-family:"TYPO_ROUND_LIGHT_DEMO";
+  text-align:center;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10;
+  font-size:45px;
+  margin-top:310px;
+}
+/* ...*/
+span.dot{
+	font-family:"MYRIADPRO-REGULAR";
+}
+/* calling fonts web */ 
+@font-face{
+    font-family: "TYPO_ROUND_LIGHT_DEMO";
+    src:url('TYPO_ROUND_LIGHT_DEMO.OTF');
+}
+@font-face{
+    font-family: "MYRIADPRO-REGULAR";
+    src: url('MYRIADPRO-REGULAR.OTF');
+}
+
+/* Responsive screen 
+  ##Device = Most of the Smart phones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  
+   @media(min-width:320px)and (max-width:480px){
+	   h1.word{
+     font-size:40px;
+	 color:red;
+	   }
+   }
+   
+   
+	   
+	
+	
